@@ -3,10 +3,6 @@
 }
 
 .team__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -32,16 +28,13 @@
 }
 
 .team__subtitle {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(null, 16px, 500, 1.19, null, var(--primary-dark-text-color));
   text-align: center;
   margin-bottom: 10px;
 }
 
 .team__item-text {
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(null, 16px, null, 1.19, null, null);
   text-align: center;
   margin-bottom: 16px;
 }

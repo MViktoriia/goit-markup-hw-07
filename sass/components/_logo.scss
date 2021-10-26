@@ -1,10 +1,6 @@
 .logo {
-  font-family: Raleway;
+  @include font(Raleway, 26px, 700, 1.19, null, var(--accent-color));
   font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
 }
 
 .logo_dark {

@@ -3,9 +3,7 @@
 }
 
 .address__text {
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--primary-light-text-color);
+  @include font(null, 14px, null, 1.71, null, var(--primary-light-text-color));
   margin-bottom: 9px;
 }
 
